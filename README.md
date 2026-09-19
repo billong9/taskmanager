@@ -104,16 +104,16 @@ Cela lance automatiquement :
 ---
 
 ## Endpoints de l'API
-|---|---|---|---|
-| Méthode | Endpoint | Description | Auth requise |
-| POST | `/api/auth/register` | Inscription d'un utilisateur | Non |
-| POST | `/api/auth/login` | Connexion (retourne un JWT) | Non |
-| GET | `/api/tasks?status=&search=` | Liste des tâches de l'utilisateur connecté (filtrage optionnel) | Oui |
-| POST | `/api/tasks` | Créer une tâche | Oui |
-| PUT | `/api/tasks/{id}` | Modifier une tâche | Oui |
-| DELETE | `/api/tasks/{id}` | Supprimer une tâche | Oui |
 
----
+| Méthode | Endpoint | Description | Auth requise |
+|---------|----------|-------------|--------------|
+| POST    | `/api/auth/register` | Inscription d'un utilisateur | Non |
+| POST    | `/api/auth/login`    | Connexion (retourne un JWT)   | Non |
+| GET     | `/api/tasks?status=&search=` | Liste des tâches de l'utilisateur connecté (filtrage optionnel) | Oui |
+| POST    | `/api/tasks`         | Créer une tâche              | Oui |
+| PUT     | `/api/tasks/{id}`    | Modifier une tâche           | Oui |
+| DELETE  | `/api/tasks/{id}`    | Supprimer une tâche          | Oui |
+
 
 Toutes les routes protégées attendent l'en-tête contenant : Authorization: Bearer <votre_token_jwt>
 
