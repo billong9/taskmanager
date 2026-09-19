@@ -104,7 +104,7 @@ Cela lance automatiquement :
 ---
 
 ## Endpoints de l'API
-
+|---|---|---|---|
 | Méthode | Endpoint | Description | Auth requise |
 | POST | `/api/auth/register` | Inscription d'un utilisateur | Non |
 | POST | `/api/auth/login` | Connexion (retourne un JWT) | Non |
