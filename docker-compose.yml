@@ -33,7 +33,7 @@ services:
       DB_NAME: taskmanager
       DB_USER: root
       DB_PASSWORD: root
-      JWT_SECRET: changeThisSecretKeyForProductionUseAtLeast256BitsLongPlease
+      JWT_SECRET: Billong123CleSecreteLongueEtComplexe
       CORS_ALLOWED_ORIGINS: http://localhost:5173,http://localhost:80
       PORT: 8080
     ports:
