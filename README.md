@@ -174,7 +174,18 @@ curl -X POST http://localhost:8080/api/tasks \
 
 ## Captures d'écran
 
-*(à ajouter après premier lancement local : page de connexion, liste des tâches, formulaire de création)*
+**CAPTURE LOGIN :**
+![login](images/login.JPG)
+
+**CAPTURE CREATION UTILISATEUR :**
+![login](images/register_user.JPG)
+
+**CAPTURE LISTE TACHE :**
+![login](images/list_task.JPG)
+
+**CAPTURE CREATION TACHE :**
+![login](images/register_task.JPG)
+
 
 ---
 
