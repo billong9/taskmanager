@@ -113,6 +113,8 @@ Cela lance automatiquement :
 | PUT | `/api/tasks/{id}` | Modifier une tâche | Oui |
 | DELETE | `/api/tasks/{id}` | Supprimer une tâche | Oui |
 
+---
+
 Toutes les routes protégées attendent l'en-tête contenant : Authorization: Bearer <votre_token_jwt>
 
 **Exemple d'inscription :**
