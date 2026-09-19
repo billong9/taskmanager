@@ -1,3 +1,4 @@
+
 # 📋 Task Manager — Application complète (Web + Mobile)
 
 Mini-application de gestion de tâches réalisée dans le cadre du test de recrutement, intégrant :
