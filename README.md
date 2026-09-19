@@ -121,7 +121,7 @@ Toutes les routes protégées attendent l'en-tête contenant : Authorization: Be
 ```bash
 curl -X POST http://localhost:8080/api/auth/register \
   -H "Content-Type: application/json" \
-  -d '{"fullName":"Jean Dupont","email":"jean@exemple.com","password":"secret123"}'
+  -d '{"fullName":"Billong Donald","email":"billongdonald9@gmail.com","password":"secret123"}'
 ```
 
 **Exemple de création de tâche :**
